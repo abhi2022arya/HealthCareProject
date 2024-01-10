@@ -1,0 +1,31 @@
+Project Name: Healthcare
+
+Description:
+HealthcareForms is a web-based application designed for doctors to efficiently collect and manage patient information. The system facilitates the creation and submission of hierarchical forms, allowing doctors to record patient details seamlessly during consultations.
+
+Key Features:
+
+Dynamic Form Hierarchy: Forms are structured hierarchically, and options dynamically appear based on the selection of the parent form elements. This ensures a streamlined and relevant data entry process.
+
+User-Friendly Interface: The interface is designed to be user-friendly, providing an intuitive experience for doctors to navigate through different forms and record patient information efficiently.
+
+Integration of Neo4j Graph Database: The application leverages the Neo4j graph database to store and manage the relationships between different types of data. This ensures efficient and flexible data retrieval.
+
+Multifunctional Pages:
+
+Home: Welcome page providing an overview of the application and its capabilities.
+About Us: Information about the project, its purpose, and the team involved.
+Contact Us: Contact details and a form for users to get in touch with any inquiries or feedback.
+Technologies Used:
+
+Frontend: HTML,CSS,ReactJS
+Backend: Flask
+Database: Neo4j (Graph Database)
+
+This project seamlessly integrates a modern frontend using ReactJS with a Flask backend and a powerful Neo4j graph database. It is tailored to meet the needs of healthcare professionals, offering a dynamic and hierarchical form system for comprehensive patient information management.
+
+
+
+
+
+

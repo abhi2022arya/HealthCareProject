@@ -1,0 +1,58 @@
+body, .footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the list items */
+.footer ul {
+    list-style: none; /* Remove default list styling */
+}
+
+.footer ul li::before {
+    content: '\2192'; /* Unicode character for right arrow */
+    margin-right: 8px; /* Optional: Add some space between arrow and text */
+}
+
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 10rem repeat(4,1fr) 10rem;
+    width: 100%;
+    margin-top: 110px;
+    padding-bottom: 27px;
+}
+
+.footer-1{
+    grid-column: 2/3;
+}
+
+.footer a{
+    color: #3b559a;
+}
+
+.footer-1 img{
+    height: 58px;
+}
+
+
+
+.footer ul li{
+    padding-bottom: 10px;
+}
+
+
+
+.footer-4 h2{
+    font-size: 17px;
+}
+
+.footer-4 h3{
+    color: #818695;
+    font-size: 19px;
+
+}
+
+
+

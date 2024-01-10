@@ -1,0 +1,105 @@
+body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+    
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    max-width: 100%; /* Ensure the hero section doesn't exceed the screen width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-top: 7rem; 
+   
+}
+
+.hero-left{
+    flex: 1;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+  
+}
+
+.hero-left h2{
+    color: rgb(59, 85, 154);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-left p{
+    color: #171717;
+    font-size: 90px;
+    font-weight: 600;
+  
+    
+}
+
+.hero-p2 p{
+    font-size: 15px;
+    color: rgb(130, 133, 142);
+}
+
+.hero-p1{
+    white-space: nowrap;
+    line-height: 70px;
+}
+
+
+.hero-button{
+    display: flex;
+    gap: 20px;
+
+}
+
+.hero-book-button{
+    
+    background: rgba(59, 85, 154, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+    
+}
+
+.hero-read-button{
+    
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+    
+}
+
+
+.hero-button div:hover {
+    background-color: #3b559a;
+    color: white;
+}
+
+.hero-p2{
+    margin: 65px auto;
+    margin-right: 195px;
+    margin-bottom: 35px;
+    
+}
+/* .hero-right img{
+
+} */

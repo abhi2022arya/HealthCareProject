@@ -1,0 +1,55 @@
+.help{
+    display: flex;
+    flex-direction: row;
+    margin-top: 59px;
+}
+
+.help-left{
+    flex: 1;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    height: 587px;
+}
+
+.help-right{
+   flex: 1;
+   background: #eff6fa;
+}
+
+.help-right h2{
+    font-size: 60px;
+}
+
+.help-right-text{
+    margin: 69px 69px 25px 69px;
+}
+
+.help-right h3{
+    color: #3b559a;
+    margin-top: 19px;
+}
+
+.help-right p{
+    margin-top: 36px;
+    margin-right: 143px;
+    color: #818695;
+    font-size: 17px;
+
+}
+
+.help-button{
+    background: #3b559a;
+    margin-left: 67px;
+    margin-right: 477px;
+    padding: 10px 15px;
+    align-items: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+

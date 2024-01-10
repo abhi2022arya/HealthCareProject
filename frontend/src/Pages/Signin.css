@@ -1,0 +1,99 @@
+.emails_icon, .locks_icon{
+    width: 23px;
+    height: auto;
+}
+
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: #ffff;
+    margin: auto;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    /* height: 500px; */
+}
+
+
+.headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 9px;
+    width: 100%;
+
+    
+}
+
+.texts{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+    /* margin: 6px; */
+}
+
+.underlines{
+    background: #3c009d;
+    width: 61px;
+    height: 6px;
+    border-radius: 9px;
+}
+
+
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+    /* width: 380px; */
+    /* margin: 5px auto; */
+    margin-top: 55px;
+    gap: 25px;
+}
+
+.login-input{
+    display: flex;
+    /* flex-direction: row; */
+    /* gap: 10px; */
+    /* margin: 7px; */
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.login-input img{
+    margin: 0px 30px;
+}
+
+.login-input input{
+    height: 50px;
+    width: 350px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+
+
+
+.submits{
+    background: #4c00b4;
+    width: 220px;
+    margin: 45px auto;
+    color: #ffff;
+    border-radius: 50px;
+    font-size: 19px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+

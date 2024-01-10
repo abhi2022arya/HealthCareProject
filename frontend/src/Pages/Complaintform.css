@@ -1,0 +1,175 @@
+.main-container{
+    
+    padding-bottom: 20px;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: #ffff;
+    margin: auto;
+    margin-top: 38px;
+    padding-bottom: 11px;
+    
+}
+
+ .form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 9px;
+    width: 100%;
+   
+
+}
+
+.forms{
+    margin: 20px;
+}
+
+.form-text{
+    color: #3c009d;
+    font-size: 40px;
+    font-weight: 500; 
+
+}
+
+.form-underline{
+    background: #3c009d;
+    width: 61px;
+    height: 6px;
+    border-radius: 9px;
+   
+}
+
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    /* width: 380px; */
+    /* margin: 5px auto; */
+    margin-top: 25px;
+    gap: 14px;
+}
+
+.form-input input[type="checkbox"] {
+    margin : 15px; /* Adjust the spacing between the checkbox and label */
+  }
+
+.form-input{
+    display: flex;
+    /* flex-direction: row; */
+    /* gap: 10px; */
+    /* margin: 7px; */
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+.arrowLeft{
+    width: 30px;
+    height: auto;
+}
+
+
+.arrowleft_btn{
+    background: #4c00b4;
+    width: 57px;
+    margin: 30px ;
+    margin-left: 169px;
+    color: #ffff;
+    border-radius: 50px;
+    font-size: 24px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.submit-container{
+    display: flex;
+    /* gap: 30px; */
+    /* margin: 60px auto; */
+}
+
+
+.complaintform_btn{
+    background: #4c00b4;
+    width: 146px;
+    margin: 30px 3px;
+    color: #ffff;
+    border-radius: 50px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* lower css is not used in main page */
+ 
+/* 
+ h2{
+    background-color:#6CAEED ;
+    color:black;
+    font-size: 30px;
+}
+
+h3{
+    background-color:  #89cff0;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.sub-3{
+    background-color:#ddeefa;
+    color: black;
+    margin-left: 150px;
+    margin-right:150px;
+    margin-bottom: 10px;
+    font-size: 38px;
+    
+}
+
+.sub-4{
+    background-color:#ddeefa;
+    color: black;
+    margin: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 18px;
+    
+}
+
+.sub-5{
+    background-color:#ddeefa;
+    color: black;
+    margin: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 18px;
+    
+}
+
+
+
+.block-container {
+    display: block;
+  }
+  
+    */
+
+

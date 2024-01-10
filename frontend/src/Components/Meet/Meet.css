@@ -1,0 +1,43 @@
+.meet{
+    display: grid;
+    grid-template-columns: 10rem 2fr 1fr 10rem;
+    width: 100%;
+    margin: 0px;
+    margin-top: 70px;
+}
+
+.meet-left{
+    grid-column: 2/3;
+}
+
+.meet-left img{
+    border: none;
+    border-radius: 10px;
+    height: 513px;
+}
+
+
+
+.meet-right .meet-text h2{
+    font-size: 55px;
+    margin: 67px 45px 15px;
+}
+
+.meet-right .meet-text p{
+    margin: 20px 52px 37px;
+    color: rgb(130, 133, 142);
+}
+
+.meet-button{
+    margin-right: 198px;
+    margin-left: 50px;
+    padding: 10px;
+    color: white;
+    background: #3b559a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+

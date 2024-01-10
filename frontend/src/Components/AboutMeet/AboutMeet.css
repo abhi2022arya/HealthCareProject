@@ -1,0 +1,46 @@
+
+
+.about-meet{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 91px;
+}
+
+.about-meet h2{
+    margin-left: 155px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.about-meet-text{
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr 10rem;
+    width: 100%;
+    color: rgb(130, 133, 142);
+    font-size: 17px;
+}
+
+.about-meet-left ul{
+    list-style: none;
+    padding: 0;
+}
+.about-meet-left li {
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+}
+
+.about-meet-left li::before {
+    content: '\2713';
+    color: black;
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+.about-meet-left{
+    grid-column: 2/3;
+    
+}
+
+

@@ -1,0 +1,83 @@
+.doctors{
+    margin-top: 91px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.doctors-img{
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
+    width: 100%;
+}
+
+.doctors-1{
+    grid-column: 2/3;
+}
+
+.doctors-details{
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.doctors-details-1{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctors-details .doctors-details-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctors-details .doctors-details-text h2{
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.doctors-details .doctors-details-text h3{
+    color: #3b559a;
+    font-size: 17px;
+}
+
+.doctors-details .doctors-details-text p{
+    padding: 10px 72px 2px;
+    color: #818695;
+}
+
+.doctors-details .doctors-details-logo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: -13px;
+}
+
+.doctors-details .doctors-details-logo img{
+    height: 45px;
+}
+
+
+.doctors img{
+    height: 341px;
+    border: none;
+    border-radius: 11px;
+    padding: 10px;
+
+}
+
+.doctors h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+    font-size: 50px;
+
+}
